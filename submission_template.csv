@@ -1,0 +1,2 @@
+start_utc,end_utc,kind,root_cause,evidence_tags,notes
+2024-03-10T14:00:00Z,2024-03-12T08:30:00Z,fault,"Steam trap ST-101 failed open, passing live steam to condensate return",TI-201;TI-202;FIC-201.PV,Example row only. Delete it before submitting.

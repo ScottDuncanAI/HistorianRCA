@@ -1,0 +1,215 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="1000" viewBox="0 0 1500 1000" font-family="'Helvetica Neue', Helvetica, Arial, sans-serif">
+<style>.pid-bg{fill:#ffffff}.pid-fill{fill:#f7f8fa}.pid-aid{opacity:.7}.pid-flange{stroke:currentColor}</style>
+<defs>
+<marker id="aBlue" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0,0 L 10,5 L 0,10 z" fill="#1d4e89"/></marker>
+<marker id="aRust" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0,0 L 10,5 L 0,10 z" fill="#a34a28"/></marker>
+<marker id="aSig" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0,0 L 10,5 L 0,10 z" fill="#50565f"/></marker>
+<marker id="aCyan" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0,0 L 10,5 L 0,10 z" fill="#2a7f8f"/></marker>
+<marker id="aGreen" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M 0,0 L 10,5 L 0,10 z" fill="#3f7a4d"/></marker>
+</defs>
+<rect width="1500" height="1000" fill="#ffffff"/>
+<rect x="20" y="20" width="1460" height="960" fill="none" stroke="#b8bec7" stroke-width="1"/>
+<text x="45" y="60" font-size="21" font-weight="bold" fill="#111418" text-anchor="start">TK-101 HYDROLYSIS HOLD TANK</text>
+<text x="45" y="82" font-size="11.5" font-weight="normal" fill="#5a6472" text-anchor="start">Submerged steam coil E-101 | Temperature-to-steam-flow cascade TIC-101 &gt; FIC-201 | Level control on gravity outlet</text>
+<rect x="1278" y="42" width="177" height="24" fill="none" stroke="#b02418" stroke-width="1.4"/>
+<text x="1366" y="59" font-size="11" font-weight="bold" fill="#b02418" text-anchor="middle" letter-spacing="0.4">NOT FOR CONSTRUCTION</text>
+<g id="TK-101" transform="translate(560,300) scale(2.5)" data-symbol="equipment/tank-agitated" data-fit-box="560,300,820,695" data-shell-box="602.5,380,777.5,610"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="2.2"><path xmlns="http://www.w3.org/2000/svg" d="M17,32 L17,124 A35,17 0 0 0 87,124 L87,32 Z" class="pid-fill" fill="#f7f8fa" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="17" y1="32" x2="87" y2="32" />
+  <g xmlns="http://www.w3.org/2000/svg" stroke-width="1" stroke-dasharray="6,4" class="pid-aid">
+    <line x1="17" y1="70" x2="87" y2="70" />
+  </g>
+  <rect xmlns="http://www.w3.org/2000/svg" x="42" y="4" width="20" height="16" class="pid-bg" fill="#ffffff" stroke-width="1.6" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="52" y1="20" x2="52" y2="104" stroke-width="1.6" />
+  <g xmlns="http://www.w3.org/2000/svg" stroke-width="1.8" stroke-linejoin="round">
+    <path d="M38,98 L52,104 L66,98" fill="none" />
+    <path d="M38,110 L52,104 L66,110" fill="none" />
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" data-nozzle="top">
+    <line x1="32" y1="32" x2="32" y2="20" />
+    <line class="pid-flange" x1="27" y1="20" x2="37" y2="20" stroke-width="2.2" />
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" data-nozzle="bottom">
+    <line x1="52" y1="141" x2="52" y2="152" />
+    <line class="pid-flange" x1="47" y1="152" x2="57" y2="152" stroke-width="2.2" />
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" data-nozzle="side">
+    <line x1="87" y1="72" x2="99" y2="72" />
+    <line class="pid-flange" x1="99" y1="67" x2="99" y2="77" stroke-width="2.2" />
+  </g>
+  <g xmlns="http://www.w3.org/2000/svg" data-nozzle="side-lower">
+    <line x1="87" y1="110" x2="99" y2="110" />
+    <line class="pid-flange" x1="99" y1="105" x2="99" y2="115" stroke-width="2.2" />
+  </g>
+</g></g>
+<text x="526.5" y="327.0" font-size="14" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="602.5,380,777.5,610">TK-101</text>
+<text x="526.5" y="345.0" font-size="10" font-weight="normal" fill="#5a6472" text-anchor="middle" letter-spacing="0.4" data-owner="602.5,380,777.5,610">HYDROLYSIS HOLD TANK</text>
+<text x="526.5" y="362.0" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle" data-owner="602.5,380,777.5,610">2.0 m dia x 4.0 m | agitated</text>
+<g transform="translate(236,216)" data-symbol="equipment/pump-centrifugal" data-shell-box="248,232,292,278"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="2"><circle xmlns="http://www.w3.org/2000/svg" cx="34" cy="34" r="18" class="pid-bg" fill="#ffffff" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="4" y1="34" x2="16" y2="34" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="34" y1="16" x2="34" y2="4" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="24" y1="49" x2="18" y2="62" stroke-width="1.6" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="44" y1="49" x2="50" y2="62" stroke-width="1.6" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="12" y1="62" x2="56" y2="62" stroke-width="1.6" />
+  <g xmlns="http://www.w3.org/2000/svg" class="pid-flange" stroke-width="2">
+    <line x1="4" y1="29" x2="4" y2="39" />
+    <line x1="29" y1="4" x2="39" y2="4" />
+  </g>
+</g></g>
+<text x="266.0" y="302.0" font-size="11" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="248,232,292,278">P-100</text>
+<text x="270" y="320" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle">upstream unit</text>
+<path d="M 60,250 L 240,250" fill="none" stroke="#1d4e89" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#aBlue)"/>
+<text x="60" y="218" font-size="11" font-weight="normal" fill="#5a6472" text-anchor="start">FROM UPSTREAM STORAGE</text>
+<text x="60" y="233" font-size="9.5" font-weight="normal" fill="#5a6472" text-anchor="start">15.0 m&#179;/h  |  25 &#176;C</text>
+<path d="M 270,220 L 270,180 L 640,180 L 640,350" fill="none" stroke="#1d4e89" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#aBlue)"/>
+<path d="M 690,680 L 690,780 L 1420,780" fill="none" stroke="#1d4e89" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#aBlue)"/>
+<text x="1420" y="766" font-size="10.5" font-weight="normal" fill="#5a6472" text-anchor="end">TO DOWNSTREAM RECOVERY</text>
+<path d="M 1420,480 L 807.5,480" fill="none" stroke="#a34a28" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#aRust)"/>
+<text x="1420" y="506.0" font-size="10.5" font-weight="normal" fill="#5a6472" text-anchor="end">FROM STEAM HEADER (SHARED)</text>
+<text x="1420" y="521.0" font-size="9.5" font-weight="normal" fill="#5a6472" text-anchor="end">6.0 barg  |  162.7 &#176;C sat.</text>
+<path d="M 807.5,575 L 960,575 L 960,690 L 1420,690" fill="none" stroke="#a34a28" stroke-width="2.4" stroke-linejoin="round" marker-end="url(#aRust)"/>
+<text x="1420" y="676" font-size="10.5" font-weight="normal" fill="#5a6472" text-anchor="end">TO CONDENSATE RETURN</text>
+<rect x="604" y="475" width="172" height="135" fill="#dce8f5" opacity="0.55"/>
+<line x1="607.5" y1="475" x2="772.5" y2="475" stroke="#1d4e89" stroke-width="1.2" stroke-dasharray="7,5"/>
+<text x="769.5" y="467.0" font-size="8.5" font-weight="normal" fill="#5a6472" text-anchor="end" letter-spacing="0.3" data-inside="1">NLL 2.0 m</text>
+<path d="M 777.5,480 L 765,480 L 765,494 L 625,494 L 625,512 L 745,512 L 745,530 L 625,530 L 625,594 L 765,594 L 765,575 L 777.5,575" fill="none" stroke="#a34a28" stroke-width="1.8" stroke-linejoin="round" data-internal="1"/>
+<text x="690" y="606" font-size="8.5" font-weight="normal" fill="#5a6472" text-anchor="middle" data-inside="1">E-101 STEAM COIL</text>
+<g transform="translate(1126,448)" data-symbol="valves/bodies/globe+valves/actuators/diaphragm"><g transform="translate(0,0)" data-symbol="valves/bodies/globe"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><path xmlns="http://www.w3.org/2000/svg" d="M4,21 L4,43 L24,32 Z" class="pid-bg" fill="#ffffff" />
+  <path xmlns="http://www.w3.org/2000/svg" d="M44,21 L44,43 L24,32 Z" class="pid-bg" fill="#ffffff" />
+  <circle xmlns="http://www.w3.org/2000/svg" cx="24" cy="32" r="6" class="pid-bg" fill="#ffffff" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="24" y1="26" x2="24" y2="20" />
+</g></g><g transform="translate(0,0)"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><line xmlns="http://www.w3.org/2000/svg" x1="24" y1="20" x2="24" y2="16" />
+  <path xmlns="http://www.w3.org/2000/svg" d="M12,16 A12,12 0 0 1 36,16 Z" class="pid-bg" fill="#ffffff" />
+</g></g></g>
+<text x="1150" y="515.0" font-size="10.5" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="1126,456,1174,504">TV-101  (FC)</text>
+<g transform="translate(0,1560) scale(1,-1)"><g transform="translate(876,748)" data-symbol="valves/bodies/globe+valves/actuators/diaphragm"><g transform="translate(0,0)" data-symbol="valves/bodies/globe"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><path xmlns="http://www.w3.org/2000/svg" d="M4,21 L4,43 L24,32 Z" class="pid-bg" fill="#ffffff" />
+  <path xmlns="http://www.w3.org/2000/svg" d="M44,21 L44,43 L24,32 Z" class="pid-bg" fill="#ffffff" />
+  <circle xmlns="http://www.w3.org/2000/svg" cx="24" cy="32" r="6" class="pid-bg" fill="#ffffff" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="24" y1="26" x2="24" y2="20" />
+</g></g><g transform="translate(0,0)"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><line xmlns="http://www.w3.org/2000/svg" x1="24" y1="20" x2="24" y2="16" />
+  <path xmlns="http://www.w3.org/2000/svg" d="M12,16 A12,12 0 0 1 36,16 Z" class="pid-bg" fill="#ffffff" />
+</g></g></g></g>
+<text x="900" y="753.0" font-size="10.5" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="876,756,924,804">LV-101  (FC)</text>
+<g transform="translate(976,448)" data-symbol="fittings/restriction-orifice"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><line xmlns="http://www.w3.org/2000/svg" x1="4" y1="32" x2="44" y2="32" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="24" y1="22" x2="24" y2="42" stroke-width="2.2" />
+</g></g>
+<text x="1000" y="515.0" font-size="10" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="976,456,1024,504">FE-201</text>
+<g transform="translate(939.571,609.714) scale(0.928571)" data-symbol="fittings/steam-trap"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.6"><line xmlns="http://www.w3.org/2000/svg" x1="22" y1="4" x2="22" y2="14" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="22" y1="34" x2="22" y2="44" />
+  <rect xmlns="http://www.w3.org/2000/svg" x="8" y="14" width="28" height="20" class="pid-bg" fill="#ffffff" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="8" y1="34" x2="36" y2="14" stroke-width="1.4" />
+</g></g>
+<text x="1004" y="665.2857142857143" font-size="10" font-weight="bold" fill="#111418" text-anchor="middle" data-owner="939.571,622.714,980.429,641.286">ST-101</text>
+<g transform="translate(976.429,398.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1000.0" y="420.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">FT</text>
+<text x="1000.0" y="434.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">201</text>
+<line x1="1000" y1="480" x2="1000" y2="444" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(976.429,276.429) scale(1.57143)" data-symbol="instruments/bubble-dcs"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><rect xmlns="http://www.w3.org/2000/svg" x="1" y="1" width="28" height="28" class="pid-bg" fill="#ffffff" />
+  <circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" fill="none" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="1" y1="15" x2="29" y2="15" />
+</g></g>
+<text x="1000" y="298" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">FIC</text>
+<text x="1000" y="312" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">201</text>
+<path d="M 1000,400 L 1000,322" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<path d="M 1022,300 L 1150,300 L 1150,452" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<g transform="translate(811.929,396.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="835.5" y="418.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TT</text>
+<text x="835.5" y="432.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<line x1="777.5" y1="420" x2="813.5" y2="420" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(811.929,276.429) scale(1.57143)" data-symbol="instruments/bubble-dcs"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><rect xmlns="http://www.w3.org/2000/svg" x="1" y="1" width="28" height="28" class="pid-bg" fill="#ffffff" />
+  <circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" fill="none" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="1" y1="15" x2="29" y2="15" />
+</g></g>
+<text x="835.5" y="298" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TIC</text>
+<text x="835.5" y="312" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<path d="M 835.5,398 L 835.5,322" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<path d="M 857.5,300 L 978,300" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<text x="917.75" y="290" font-size="8.5" font-weight="normal" fill="#5a6472" text-anchor="middle">REMOTE SP</text>
+<text x="835.5" y="264" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle">SP 75 &#176;C | reverse</text>
+<text x="1000" y="264" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle">CAS | 0-3000 kg/h</text>
+<g transform="translate(520.929,506.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="544.5" y="528.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">LT</text>
+<text x="544.5" y="542.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<line x1="602.5" y1="530" x2="566.5" y2="530" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(396.429,506.429) scale(1.57143)" data-symbol="instruments/bubble-dcs"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><rect xmlns="http://www.w3.org/2000/svg" x="1" y="1" width="28" height="28" class="pid-bg" fill="#ffffff" />
+  <circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" fill="none" />
+  <line xmlns="http://www.w3.org/2000/svg" x1="1" y1="15" x2="29" y2="15" />
+</g></g>
+<text x="420" y="528" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">LIC</text>
+<text x="420" y="542" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<path d="M 522.5,530 L 442,530" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<path d="M 420,552 L 420,880 L 900,880 L 900,808" fill="none" stroke="#50565f" stroke-width="1.35" stroke-linejoin="round" stroke-dasharray="7,5.5" marker-end="url(#aSig)"/>
+<text x="420" y="494" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle">direct | SP 2.0 m</text>
+<g transform="translate(520.929,564.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="544.5" y="586.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">LI</text>
+<text x="544.5" y="600.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">102</text>
+<line x1="602.5" y1="588" x2="566.5" y2="588" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(336.429,98.4286) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="360.0" y="120.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">FI</text>
+<text x="360.0" y="134.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<line x1="360" y1="180" x2="360" y2="144" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(426.429,98.4286) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="450.0" y="120.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TI</text>
+<text x="450.0" y="134.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">100</text>
+<line x1="450" y1="180" x2="450" y2="144" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1316.43,398.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1340.0" y="420.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">PI</text>
+<text x="1340.0" y="434.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">201</text>
+<line x1="1340" y1="480" x2="1340" y2="444" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1236.43,398.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1260.0" y="420.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TI</text>
+<text x="1260.0" y="434.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">201</text>
+<line x1="1260" y1="480" x2="1260" y2="444" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1176.43,608.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1200.0" y="630.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TI</text>
+<text x="1200.0" y="644.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">202</text>
+<line x1="1200" y1="690" x2="1200" y2="654" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1036.43,814.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1060.0" y="836.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">FI</text>
+<text x="1060.0" y="850.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">102</text>
+<line x1="1060" y1="780" x2="1060" y2="816" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1126.43,814.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1150.0" y="836.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TI</text>
+<text x="1150.0" y="850.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">102</text>
+<line x1="1150" y1="780" x2="1150" y2="816" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(1216.43,814.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="1240.0" y="836.0" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">AI</text>
+<text x="1240.0" y="850.0" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">101</text>
+<line x1="1240" y1="780" x2="1240" y2="816" stroke="#343a46" stroke-width="1.2"/>
+<g transform="translate(86.4286,536.429) scale(1.57143)" data-symbol="instruments/bubble-field"><g color="#343a46" fill="none" stroke="currentColor" stroke-width="1.5"><circle xmlns="http://www.w3.org/2000/svg" cx="15" cy="15" r="14" class="pid-bg" fill="#ffffff" />
+</g></g>
+<text x="110" y="558" font-size="11.5" font-weight="bold" fill="#111418" text-anchor="middle" data-inside="1">TI</text>
+<text x="110" y="572" font-size="10" font-weight="normal" fill="#111418" text-anchor="middle" data-inside="1">901</text>
+<text x="110" y="600" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="middle">AMBIENT AIR</text>
+<text x="60" y="320" font-size="11" font-weight="bold" fill="#111418" text-anchor="start" letter-spacing="0.4">DCS CALCULATED TAGS</text>
+<text x="60" y="344" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-DUTY: steam-side coil duty</text>
+<text x="60" y="362" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-DUTY-PROC: process-side duty</text>
+<text x="60" y="380" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-EBAL: steam minus process</text>
+<text x="60" y="398" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-APPROACH: TI-201 - TIC-101</text>
+<text x="60" y="416" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-UA: effective coil UA</text>
+<text x="60" y="434" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  CALC-MBAL: FI-101 - FI-102</text>
+<text x="60" y="650" font-size="11" font-weight="bold" fill="#111418" text-anchor="start" letter-spacing="0.4">NOTES</text>
+<text x="60" y="674" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  TV-101 / LV-101 smart positioners: .POS feedback.</text>
+<text x="60" y="692" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  FT-201 orifice is downstream of TV-101.</text>
+<text x="60" y="710" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  No outlet pump: drains on hydrostatic head.</text>
+<text x="60" y="728" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="start">&#8226;  Conceptual: no relief, drains, vents or isolation.</text>
+<text x="720" y="935" font-size="9.5" font-weight="normal" fill="#5a6472" text-anchor="middle">Design basis: 15.0 m3/h feed at 25 degC | 75 degC bulk | level 2.0 m (6.28 m3, 25 min) | coil 898 kW | 1,533 kg/h steam at 6.0 barg | TV-101 and LV-101 ~50% at design</text>
+<line x1="60" y1="964" x2="105" y2="964" stroke="#1d4e89" stroke-width="2.8"/>
+<text x="115" y="969" font-size="12" font-weight="normal" fill="#5a6472" text-anchor="start">Process liquid</text>
+<line x1="270" y1="964" x2="315" y2="964" stroke="#a34a28" stroke-width="2.8"/>
+<text x="325" y="969" font-size="12" font-weight="normal" fill="#5a6472" text-anchor="start">Steam / condensate</text>
+<line x1="483.8" y1="964" x2="528.8" y2="964" stroke="#50565f" stroke-width="1.6" stroke-dasharray="7,5.5"/>
+<text x="538.8" y="969" font-size="12" font-weight="normal" fill="#5a6472" text-anchor="start">DCS / instrument signal</text>
+<text x="1445" y="935" font-size="9" font-weight="normal" fill="#5a6472" text-anchor="end">Drawing: TK101-PFD-001  |  Rev A</text>
+</svg>

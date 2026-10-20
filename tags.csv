@@ -1,0 +1,91 @@
+tag,description,units,range_lo,range_hi,instrument_class,role,loop,dcs_node,transport_lag_s,compression_deadband_pct,sensor_lag_s,update_period_s,unit
+AI-101,Product purity analyzer (desired product in dissolved organics),%,90.0,100.0,analyzer,IND,,NODE-C,480.0,0.6,90.0,300.0,TK-101
+AIR-PIC-202.MODE,Instrument air pressure mode,-,0.0,2.0,status,MODE,AIR-PIC-202,NODE-F,0.0,0.0,0.0,10.0,IA-SKID
+AIR-PIC-202.OP,Instrument air pressure output,%,0.0,100.0,valve,OP,AIR-PIC-202,NODE-F,0.0,0.2,3.0,10.0,IA-SKID
+AIR-PIC-202.PV,Instrument air pressure,barg,0.0,20.0,pressure,PV,AIR-PIC-202,NODE-F,0.0,0.4,1.5,10.0,IA-SKID
+AIR-PIC-202.SP,Instrument air pressure setpoint,barg,0.0,20.0,status,SP,AIR-PIC-202,NODE-F,0.0,0.0,0.0,10.0,IA-SKID
+AIR-TIC-201.MODE,Instrument air temperature mode,-,0.0,2.0,status,MODE,AIR-TIC-201,NODE-E,0.0,0.0,0.0,10.0,IA-SKID
+AIR-TIC-201.OP,Instrument air temperature output,%,0.0,100.0,valve,OP,AIR-TIC-201,NODE-E,0.0,0.2,3.0,10.0,IA-SKID
+AIR-TIC-201.PV,Instrument air temperature,degC,0.0,150.0,temperature,PV,AIR-TIC-201,NODE-E,0.0,0.15,45.0,10.0,IA-SKID
+AIR-TIC-201.SP,Instrument air temperature setpoint,degC,0.0,150.0,status,SP,AIR-TIC-201,NODE-E,0.0,0.0,0.0,10.0,IA-SKID
+CALC-APPROACH,Steam to bulk approach,K,0.0,200.0,calculated,CALC,,NODE-A,0.0,0.4,0.0,10.0,TK-101
+CALC-DUTY,"Coil duty, steam side",kW,0.0,2000.0,calculated,CALC,,NODE-A,0.0,0.4,0.0,10.0,TK-101
+CALC-DUTY-PROC,"Coil duty, process side",kW,0.0,2000.0,calculated,CALC,,NODE-B,0.0,0.4,0.0,10.0,TK-101
+CALC-EBAL,"Energy balance gap, steam minus process",kW,-500.0,500.0,calculated,CALC,,NODE-A,0.0,0.4,0.0,10.0,TK-101
+CALC-MBAL,Mass balance residual,m3/h,-10.0,10.0,calculated,CALC,,NODE-B,0.0,0.4,0.0,10.0,TK-101
+CALC-UA,Back-calculated coil UA,W/K,0.0,30000.0,calculated,CALC,,NODE-A,0.0,0.4,0.0,10.0,TK-101
+CW-FIC-201.MODE,Cooling water skid flow mode,-,0.0,2.0,status,MODE,CW-FIC-201,NODE-D,0.0,0.0,0.0,10.0,CW-SKID
+CW-FIC-201.OP,Cooling water skid flow output,%,0.0,100.0,valve,OP,CW-FIC-201,NODE-D,0.0,0.2,3.0,10.0,CW-SKID
+CW-FIC-201.PV,Cooling water skid flow,m3/h,0.0,200.0,flow,PV,CW-FIC-201,NODE-D,0.0,0.4,2.0,10.0,CW-SKID
+CW-FIC-201.SP,Cooling water skid flow setpoint,m3/h,0.0,200.0,status,SP,CW-FIC-201,NODE-D,0.0,0.0,0.0,10.0,CW-SKID
+CW-FIC-205.MODE,Cooling water skid flow mode,-,0.0,2.0,status,MODE,CW-FIC-205,NODE-E,0.0,0.0,0.0,10.0,CW-SKID
+CW-FIC-205.OP,Cooling water skid flow output,%,0.0,100.0,valve,OP,CW-FIC-205,NODE-E,0.0,0.2,3.0,10.0,CW-SKID
+CW-FIC-205.PV,Cooling water skid flow,m3/h,0.0,200.0,flow,PV,CW-FIC-205,NODE-E,0.0,0.4,2.0,10.0,CW-SKID
+CW-FIC-205.SP,Cooling water skid flow setpoint,m3/h,0.0,200.0,status,SP,CW-FIC-205,NODE-E,0.0,0.0,0.0,10.0,CW-SKID
+CW-LIC-204.MODE,Cooling water skid level mode,-,0.0,2.0,status,MODE,CW-LIC-204,NODE-D,0.0,0.0,0.0,10.0,CW-SKID
+CW-LIC-204.OP,Cooling water skid level output,%,0.0,100.0,valve,OP,CW-LIC-204,NODE-D,0.0,0.2,3.0,10.0,CW-SKID
+CW-LIC-204.PV,Cooling water skid level,m,0.0,5.0,level,PV,CW-LIC-204,NODE-D,0.0,0.3,8.0,10.0,CW-SKID
+CW-LIC-204.SP,Cooling water skid level setpoint,m,0.0,5.0,status,SP,CW-LIC-204,NODE-D,0.0,0.0,0.0,10.0,CW-SKID
+CW-PIC-203.MODE,Cooling water skid pressure mode,-,0.0,2.0,status,MODE,CW-PIC-203,NODE-F,0.0,0.0,0.0,10.0,CW-SKID
+CW-PIC-203.OP,Cooling water skid pressure output,%,0.0,100.0,valve,OP,CW-PIC-203,NODE-F,0.0,0.2,3.0,10.0,CW-SKID
+CW-PIC-203.PV,Cooling water skid pressure,barg,0.0,20.0,pressure,PV,CW-PIC-203,NODE-F,0.0,0.4,1.5,10.0,CW-SKID
+CW-PIC-203.SP,Cooling water skid pressure setpoint,barg,0.0,20.0,status,SP,CW-PIC-203,NODE-F,0.0,0.0,0.0,10.0,CW-SKID
+CW-TIC-202.MODE,Cooling water skid temperature mode,-,0.0,2.0,status,MODE,CW-TIC-202,NODE-E,0.0,0.0,0.0,10.0,CW-SKID
+CW-TIC-202.OP,Cooling water skid temperature output,%,0.0,100.0,valve,OP,CW-TIC-202,NODE-E,0.0,0.2,3.0,10.0,CW-SKID
+CW-TIC-202.PV,Cooling water skid temperature,degC,0.0,150.0,temperature,PV,CW-TIC-202,NODE-E,0.0,0.15,45.0,10.0,CW-SKID
+CW-TIC-202.SP,Cooling water skid temperature setpoint,degC,0.0,150.0,status,SP,CW-TIC-202,NODE-E,0.0,0.0,0.0,10.0,CW-SKID
+FI-101,Feed flow from upstream storage,m3/h,0.0,30.0,flow,IND,,NODE-B,0.0,0.4,2.0,10.0,TK-101
+FI-102,Product flow,m3/h,0.0,30.0,flow,IND,,NODE-B,120.0,0.4,2.0,10.0,TK-101
+FIC-201.MODE,Steam flow controller mode,-,0.0,2.0,status,MODE,FIC-201,NODE-A,0.0,0.0,0.0,10.0,TK-101
+FIC-201.OP,Steam valve demand,%,0.0,100.0,valve,OP,FIC-201,NODE-A,0.0,0.2,3.0,10.0,TK-101
+FIC-201.PV,Steam flow to coil,kg/h,0.0,3000.0,flow,PV,FIC-201,NODE-A,0.0,0.4,2.0,10.0,TK-101
+FIC-201.SP,Steam flow setpoint,kg/h,0.0,3000.0,status,SP,FIC-201,NODE-A,0.0,0.2,0.0,10.0,TK-101
+LI-102,"Tank level, redundant transmitter",m,0.0,4.0,level,IND,,NODE-C,0.0,0.3,8.0,10.0,TK-101
+LIC-101.MODE,Level controller mode,-,0.0,2.0,status,MODE,LIC-101,NODE-B,0.0,0.0,0.0,10.0,TK-101
+LIC-101.OP,Outlet valve demand,%,0.0,100.0,valve,OP,LIC-101,NODE-B,0.0,0.2,3.0,10.0,TK-101
+LIC-101.PV,Tank level,m,0.0,4.0,level,PV,LIC-101,NODE-B,0.0,0.3,8.0,10.0,TK-101
+LIC-101.SP,Tank level setpoint,m,0.0,4.0,status,SP,LIC-101,NODE-B,0.0,0.0,0.0,10.0,TK-101
+LV-101.POS,Outlet valve position feedback,%,0.0,100.0,valve,IND,,NODE-B,0.0,0.2,3.0,10.0,TK-101
+N2-FIC-204.MODE,Nitrogen header flow mode,-,0.0,2.0,status,MODE,N2-FIC-204,NODE-F,0.0,0.0,0.0,10.0,N2-HDR
+N2-FIC-204.OP,Nitrogen header flow output,%,0.0,100.0,valve,OP,N2-FIC-204,NODE-F,0.0,0.2,3.0,10.0,N2-HDR
+N2-FIC-204.PV,Nitrogen header flow,m3/h,0.0,200.0,flow,PV,N2-FIC-204,NODE-F,0.0,0.4,2.0,10.0,N2-HDR
+N2-FIC-204.SP,Nitrogen header flow setpoint,m3/h,0.0,200.0,status,SP,N2-FIC-204,NODE-F,0.0,0.0,0.0,10.0,N2-HDR
+N2-LIC-203.MODE,Nitrogen header level mode,-,0.0,2.0,status,MODE,N2-LIC-203,NODE-E,0.0,0.0,0.0,10.0,N2-HDR
+N2-LIC-203.OP,Nitrogen header level output,%,0.0,100.0,valve,OP,N2-LIC-203,NODE-E,0.0,0.2,3.0,10.0,N2-HDR
+N2-LIC-203.PV,Nitrogen header level,m,0.0,5.0,level,PV,N2-LIC-203,NODE-E,0.0,0.3,8.0,10.0,N2-HDR
+N2-LIC-203.SP,Nitrogen header level setpoint,m,0.0,5.0,status,SP,N2-LIC-203,NODE-E,0.0,0.0,0.0,10.0,N2-HDR
+N2-PIC-202.MODE,Nitrogen header pressure mode,-,0.0,2.0,status,MODE,N2-PIC-202,NODE-D,0.0,0.0,0.0,10.0,N2-HDR
+N2-PIC-202.OP,Nitrogen header pressure output,%,0.0,100.0,valve,OP,N2-PIC-202,NODE-D,0.0,0.2,3.0,10.0,N2-HDR
+N2-PIC-202.PV,Nitrogen header pressure,barg,0.0,20.0,pressure,PV,N2-PIC-202,NODE-D,0.0,0.4,1.5,10.0,N2-HDR
+N2-PIC-202.SP,Nitrogen header pressure setpoint,barg,0.0,20.0,status,SP,N2-PIC-202,NODE-D,0.0,0.0,0.0,10.0,N2-HDR
+N2-TIC-201.MODE,Nitrogen header temperature mode,-,0.0,2.0,status,MODE,N2-TIC-201,NODE-F,0.0,0.0,0.0,10.0,N2-HDR
+N2-TIC-201.OP,Nitrogen header temperature output,%,0.0,100.0,valve,OP,N2-TIC-201,NODE-F,0.0,0.2,3.0,10.0,N2-HDR
+N2-TIC-201.PV,Nitrogen header temperature,degC,0.0,150.0,temperature,PV,N2-TIC-201,NODE-F,0.0,0.15,45.0,10.0,N2-HDR
+N2-TIC-201.SP,Nitrogen header temperature setpoint,degC,0.0,150.0,status,SP,N2-TIC-201,NODE-F,0.0,0.0,0.0,10.0,N2-HDR
+PI-201,Steam header pressure,barg,0.0,12.0,pressure,IND,,NODE-A,0.0,0.4,1.5,10.0,TK-101
+SD-FIC-204.MODE,Surge drum flow mode,-,0.0,2.0,status,MODE,SD-FIC-204,NODE-D,0.0,0.0,0.0,10.0,SD-101
+SD-FIC-204.OP,Surge drum flow output,%,0.0,100.0,valve,OP,SD-FIC-204,NODE-D,0.0,0.2,3.0,10.0,SD-101
+SD-FIC-204.PV,Surge drum flow,m3/h,0.0,200.0,flow,PV,SD-FIC-204,NODE-D,0.0,0.4,2.0,10.0,SD-101
+SD-FIC-204.SP,Surge drum flow setpoint,m3/h,0.0,200.0,status,SP,SD-FIC-204,NODE-D,0.0,0.0,0.0,10.0,SD-101
+SD-LIC-203.MODE,Surge drum level mode,-,0.0,2.0,status,MODE,SD-LIC-203,NODE-F,0.0,0.0,0.0,10.0,SD-101
+SD-LIC-203.OP,Surge drum level output,%,0.0,100.0,valve,OP,SD-LIC-203,NODE-F,0.0,0.2,3.0,10.0,SD-101
+SD-LIC-203.PV,Surge drum level,m,0.0,5.0,level,PV,SD-LIC-203,NODE-F,0.0,0.3,8.0,10.0,SD-101
+SD-LIC-203.SP,Surge drum level setpoint,m,0.0,5.0,status,SP,SD-LIC-203,NODE-F,0.0,0.0,0.0,10.0,SD-101
+SD-PIC-202.MODE,Surge drum pressure mode,-,0.0,2.0,status,MODE,SD-PIC-202,NODE-E,0.0,0.0,0.0,10.0,SD-101
+SD-PIC-202.OP,Surge drum pressure output,%,0.0,100.0,valve,OP,SD-PIC-202,NODE-E,0.0,0.2,3.0,10.0,SD-101
+SD-PIC-202.PV,Surge drum pressure,barg,0.0,20.0,pressure,PV,SD-PIC-202,NODE-E,0.0,0.4,1.5,10.0,SD-101
+SD-PIC-202.SP,Surge drum pressure setpoint,barg,0.0,20.0,status,SP,SD-PIC-202,NODE-E,0.0,0.0,0.0,10.0,SD-101
+SD-TIC-201.MODE,Surge drum temperature mode,-,0.0,2.0,status,MODE,SD-TIC-201,NODE-D,0.0,0.0,0.0,10.0,SD-101
+SD-TIC-201.OP,Surge drum temperature output,%,0.0,100.0,valve,OP,SD-TIC-201,NODE-D,0.0,0.2,3.0,10.0,SD-101
+SD-TIC-201.PV,Surge drum temperature,degC,0.0,150.0,temperature,PV,SD-TIC-201,NODE-D,0.0,0.15,45.0,10.0,SD-101
+SD-TIC-201.SP,Surge drum temperature setpoint,degC,0.0,150.0,status,SP,SD-TIC-201,NODE-D,0.0,0.0,0.0,10.0,SD-101
+TI-100,Feed temperature,degC,0.0,60.0,temperature,IND,,NODE-B,0.0,0.15,45.0,10.0,TK-101
+TI-102,Product line temperature,degC,0.0,120.0,temperature,IND,,NODE-B,180.0,0.15,45.0,10.0,TK-101
+TI-201,Steam saturation temperature,degC,0.0,220.0,temperature,IND,,NODE-A,0.0,0.15,45.0,10.0,TK-101
+TI-202,Condensate return temperature,degC,0.0,220.0,temperature,IND,,NODE-A,240.0,0.15,45.0,10.0,TK-101
+TI-901,Ambient temperature,degC,-30.0,50.0,temperature,IND,,NODE-C,0.0,0.15,45.0,10.0,TK-101
+TIC-101.MODE,Tank temperature controller mode,-,0.0,2.0,status,MODE,TIC-101,NODE-A,0.0,0.0,0.0,10.0,TK-101
+TIC-101.OP,Tank temperature controller output,%,0.0,100.0,valve,OP,TIC-101,NODE-A,0.0,0.2,3.0,10.0,TK-101
+TIC-101.PV,Tank temperature,degC,0.0,120.0,temperature_slow,PV,TIC-101,NODE-A,0.0,0.15,120.0,10.0,TK-101
+TIC-101.SP,Tank temperature setpoint,degC,0.0,120.0,status,SP,TIC-101,NODE-A,0.0,0.0,0.0,10.0,TK-101
+TV-101.POS,Steam valve position feedback,%,0.0,100.0,valve,IND,,NODE-A,0.0,0.2,3.0,10.0,TK-101

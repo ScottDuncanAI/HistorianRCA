@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Never commit the answer key
+*answer*key*/
+ANSWER_KEY.md
+ground_truth.json
+scoring_key.csv
+labels_60s.parquet
+cause_catalog.csv

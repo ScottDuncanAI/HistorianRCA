@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below."
+type: dataset
+title: "HistorianRCA: A Root Cause Analysis Benchmark"
+abstract: >-
+  90 days of simulated plant historian data from a steam-heated agitated
+  hold tank, containing abnormal events with known root causes, for testing
+  root cause analysis by engineers, statistical methods, machine learning or
+  AI agents.
+authors:
+  - family-names: Duncan
+    given-names: Scott
+    website: "https://scottduncanai.com/"
+version: "1.0"
+date-released: "2026-10-19"
+repository-code: "https://github.com/ScottDuncanAI/HistorianRCA"
+url: "https://github.com/ScottDuncanAI/HistorianRCA"
+license: CC-BY-4.0
+keywords:
+  - root cause analysis
+  - process historian
+  - fault diagnosis
+  - process control
+  - chemical engineering
