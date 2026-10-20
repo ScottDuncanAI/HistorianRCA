@@ -64,30 +64,11 @@ temperature.
 
 ## 2. Equipment and process flow
 
-```
-  steam header (shared utility)              feed from upstream storage
-     |                                             |
-     |                                          (P-100) feed transfer pump
-     |  PI-201 pressure                            |  FI-101 flow
-     |  TI-201 temperature                         |  TI-100 temperature
-     |                                             v
-   [TV-101] steam control valve        +-------------------------------+
-     |  FIC-201 steam flow             |  TK-101  agitated vessel      |
-     +-------------------------------->|   E-101  submerged steam coil |
-                                       |   LI-101 level (LIC-101)      |
-                                       |   LI-102 level (independent)  |
-                                       |   TI-101 bulk temp (TIC-101)  |
-                                       +------+----------------+-------+
-                                              |                |
-                                   condensate |                | product (single outlet)
-                                              v                v
-                                        steam trap         [LV-101] level control valve
-                                              |                |  FI-102 flow
-                                    TI-202 temperature         |  TI-102 temperature
-                                              v                |  AI-101 purity analyzer
-                                     condensate return         v
-                                                         downstream recovery
-```
+[![TK-101 process flow diagram: feed pump P-100, agitated tank TK-101 with submerged steam coil E-101, TIC-101 to FIC-201 cascade on TV-101, LIC-101 on the gravity outlet LV-101](tk-101-hold-tank.png)](tk-101-hold-tank.svg)
+
+*Click the image for the full-resolution SVG. Conceptual drawing, not to scale.*
+
+On the diagram, transmitters carry ISA transmitter tags. Their readings are historised under the controller tags: `TT-101` is `TIC-101.PV`, `LT-101` (the primary level transmitter, LI-101) is `LIC-101.PV`, and `FT-201`, with its orifice plate `FE-201`, is `FIC-201.PV`.
 
 - **TK-101**: vertical cylindrical vessel, 2.0 m diameter (3.14 m2 cross-section), 4.0 m tall,
   well mixed by an agitator, so the outlet is at bulk conditions.
